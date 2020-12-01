@@ -99,7 +99,7 @@ export default {
           School: "Lisans",
           Position: "FrontEnd Developer",
           Department: "Tasarım Atölyesi",
-          Manager: "Orkun Yeşim",
+          Manager: "Orkun Orkun",
         },
         {
           id: 5,
@@ -111,7 +111,7 @@ export default {
           School: "Lisans",
           Position: "Full Stack",
           Department: "Tasarım Atölyesi",
-          Manager: "Orkun Yeşim",
+          Manager: "Orkun Orkun",
         },
       ],
       togglePopup: false,
