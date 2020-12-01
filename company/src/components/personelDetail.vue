@@ -5,10 +5,13 @@
         <strong>{{ personel.Name }} {{ personel.Surname }} ait bilgiler</strong
         ><br /><br />
         <p>Id: {{ id }}</p>
+        <p>Id: {{ personel.Id }}</p>
         <p>Yaş:{{ personel.Age }}</p>
         <p>D.Tarihi:{{ personel.Birthday }}</p>
         <p>Okul:{{ personel.School }}</p>
         <p>Cinsiyet:{{ gender }}</p>
+        <p>Cinsiyet:{{ personel.Gender }}</p>
+        <input type="text" v-model="personel.Gender" name="" id="" />
         <div class="button" @click="closePopup()">Close</div>
       </div>
     </div>
@@ -61,6 +64,7 @@ export default {
   border: 1px solid gray;
   border-radius: 15px;
   text-align: left;
+  z-index: 5;
 }
 .button {
   position: absolute;
